@@ -20,7 +20,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 mx-auto w-full border-b border-white/10 bg-[#050816]/90 backdrop-blur-xl">
       <nav className="container mx-auto flex items-center justify-between px-6 py-4 lg:px-8">
         <a href="#home" className="text-lg font-semibold tracking-wide text-white">
-          Nikhila.S
+          Nikhila Sri Harshitha Badam 
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
