@@ -1,38 +1,73 @@
-### Description
+# Nikhila Sri Harshitha Badam — Personal Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+Modern personal portfolio built with Next.js 15, TypeScript, Tailwind CSS, Framer Motion, and React Icons.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+## Features
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+- Responsive layout for mobile, tablet, and desktop
+- Dark modern UI with animated gradients and glassmorphism
+- Sticky navigation with mobile hamburger menu
+- Framer Motion section transitions and reveal animations
+- Parallax-inspired hero visual and floating blobs
+- Accessible reduced motion support
+- SEO-ready metadata and favicon placeholder
+- Contact form UI with copy email feature
 
-### Features
+## Tech Stack
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+- Next.js 15
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Icons
 
-### Setup
+## Getting Started
 
-Get the code
+1. Install dependencies:
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+```bash
+npm install
+```
 
-<pre>yarn install</pre>
+2. Run development server:
 
+```bash
+npm run dev
+```
 
-Start the server
+3. Open the site locally:
 
-<pre>yarn start</pre>
+```bash
+http://localhost:3000
+```
 
-### More
+## Production
 
-Modify pages content in  `src/content_option.js`.
+Build for production:
 
-### Thanks
+```bash
+npm run build
+```
 
-If you like this portfolio template don't forget give it a ⭐ 
+Start the production server:
+
+```bash
+npm start
+```
+
+## Deployment
+
+This project is ready for deployment on Vercel. Use the root folder with build command `npm run build`.
+
+## File Structure
+
+- `app/layout.tsx` — global metadata and layout
+- `app/page.tsx` — main landing page with sections
+- `app/globals.css` — global Tailwind and custom styling
+- `components/` — reusable UI components
+
+## Notes
+
+- The portfolio is built using the App Router.
+- Animations respect `prefers-reduced-motion`.
+- The UI is optimized for Lighthouse performance and accessibility.
