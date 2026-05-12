@@ -312,7 +312,7 @@ export default function Home() {
         <div className="container mx-auto">
           <SectionHeading title="Contact" subtitle="Let's connect" />
           <div className="mt-12">
-            <ContactForm email="harshithabadam4@gmail.com" linkedIn="https://linkedin.com/in/nikhila-sri-harshitha" phone="7396204013" />
+            <ContactForm email="abc@gmail.com" linkedIn="https://linkedin.com/in/nikhila-sri-harshitha" phone="XXXXXXXXXX" />
           </div>
         </div>
       </section>
