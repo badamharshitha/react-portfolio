@@ -33,8 +33,8 @@ const projects = [
     title: 'BookMate',
     description: 'Student preparation platform for semester preparation, interview preparation, job roadmaps, and study material sharing.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    githubUrl: 'https://github.com',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/badamharshitha/Bookmate',
+    liveUrl: 'https://badamharshitha.github.io/Bookmate/',
   },
   {
     title: 'Certificate Verification System',
@@ -47,8 +47,8 @@ const projects = [
     title: 'Senior-Junior Interaction Platform',
     description: 'Communication platform with chatbot support, announcements section, and educational interaction features for student guidance.',
     tech: ['React.js', 'Node.js', 'MongoDB'],
-    githubUrl: 'https://github.com',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/badamharshitha/Sjconnect_main',
+    liveUrl: 'https://badamharshitha.github.io/Sjconnect_main/',
   },
 ]
 
