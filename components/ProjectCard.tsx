@@ -14,11 +14,9 @@ export default function ProjectCard({ title, description, tech, githubUrl, liveU
   return (
     <motion.article whileHover={{ y: -8 }} className="glass-card flex min-h-[300px] flex-col justify-between rounded-[2rem] border border-slate-700/70 p-6 shadow-soft">
       <div>
-        <img
-  src="https://thf.bing.com/th/id/OIP.idIyJFOL0JC_EtnP7k-4iAAAAA?w=205&h=180&c=7&r=0&o=7&cb=thfc1&dpr=1.4&pid=1.7&rm=3"
-  alt="Project Image"
-  className="mb-4 h-48 w-full rounded-3xl object-cover"
-/>
+  <div className="mb-4 flex h-48 items-center justify-center rounded-3xl bg-slate-900/80 text-sm text-slate-400">
+  Project image placeholder
+</div>
         <h3 className="mb-3 text-xl font-semibold text-white">{title}</h3>
         <p className="text-sm leading-7 text-slate-300">{description}</p>
       </div>
